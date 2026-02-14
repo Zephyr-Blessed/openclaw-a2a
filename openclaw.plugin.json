@@ -1,0 +1,24 @@
+{
+  "id": "a2a",
+  "name": "A2A Protocol",
+  "description": "Make your agent discoverable and reachable via Google's A2A (Agent-to-Agent) protocol",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "agentName": { "type": "string", "description": "Agent name in the A2A Agent Card" },
+      "agentDescription": { "type": "string", "description": "Agent description" },
+      "agentUrl": { "type": "string", "description": "Public URL of your gateway" },
+      "skills": { "type": "array", "description": "Skills to advertise" },
+      "openness": { "type": "string", "enum": ["open", "approval", "allowlist", "closed"], "description": "Who can message this agent" },
+      "agentPagesUrl": { "type": "string", "description": "AgentPages directory URL for auto-registration" }
+    }
+  },
+  "uiHints": {
+    "agentName": { "label": "Agent Name", "placeholder": "My Agent" },
+    "agentDescription": { "label": "Description", "placeholder": "A helpful AI assistant" },
+    "agentUrl": { "label": "Public Gateway URL", "placeholder": "https://my-gateway.example.com" },
+    "openness": { "label": "Openness Level" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-a2a-plugin",
+  "version": "0.1.0",
+  "description": "A2A (Agent-to-Agent) protocol plugin for OpenClaw",
+  "main": "src/index.ts",
+  "author": "Zephyr-Blessed",
+  "license": "MIT",
+  "keywords": ["openclaw", "a2a", "agent-to-agent", "plugin"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zephyr-Blessed/openclaw-a2a.git"
+  }
+}
