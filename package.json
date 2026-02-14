@@ -1,13 +1,16 @@
 {
-  "name": "openclaw-a2a-plugin",
+  "name": "openclaw-a2a",
   "version": "0.1.0",
-  "description": "A2A (Agent-to-Agent) protocol plugin for OpenClaw",
+  "description": "A2A (Agent-to-Agent) protocol plugin for OpenClaw — make your agent discoverable and reachable via Google's Agent-to-Agent protocol",
   "main": "src/index.ts",
   "author": "Zephyr-Blessed",
   "license": "MIT",
-  "keywords": ["openclaw", "a2a", "agent-to-agent", "plugin"],
+  "keywords": ["openclaw", "a2a", "agent-to-agent", "plugin", "agent-card", "interoperability"],
   "repository": {
     "type": "git",
     "url": "https://github.com/Zephyr-Blessed/openclaw-a2a.git"
+  },
+  "openclaw": {
+    "extensions": ["./src/index.ts"]
   }
 }
