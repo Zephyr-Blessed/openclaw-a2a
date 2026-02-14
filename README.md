@@ -14,8 +14,15 @@ This is the first A2A plugin for OpenClaw — enabling any OpenClaw-powered agen
 
 ## Installation
 
+From npm:
 ```bash
-openclaw plugins install /path/to/openclaw-a2a-plugin
+openclaw plugins install openclaw-a2a
+```
+
+From GitHub:
+```bash
+git clone https://github.com/Zephyr-Blessed/openclaw-a2a.git
+openclaw plugins install -l ./openclaw-a2a
 ```
 
 ## Configuration
